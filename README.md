@@ -12,7 +12,11 @@ struct Room {
      let width: Double
 }
 ```
-
+Answer
+```swift
+let room = Room(maxOccupancy: 1, length: 5.5, width: 5.5)
+print(room.length)
+```
 ## Question 2
 
 Using the Bike class below, write code that demonstrates that it is a reference type.
@@ -22,6 +26,10 @@ class Bike {
     var wheelNumber = 2
     var hasBell = false
 }
+```
+Answer
+```swift
+
 ```
 
 ## Question 3
